@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact/Registration - International Food Festival</title>
+
+    <style>
+        header {
+            background-color: rgb(231, 247, 247);
+            color: #181f20; 
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+        main{
+                background-color: rgb(227, 239, 239);
+            }
+
+        .h2{
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .p1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .form{
+            margin: 2%;
+            padding: 2%;
+            height: 300px;
+            margin: 20px auto;
+            width: 500px;
+            background-color: rgb(190, 199, 196);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(231, 247, 247);
+        height: 50px;
+        }
+
+        .last{
+            display: flex;
+            padding-left:2px ;
+            margin-left: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact/Registration</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About the Event</a></li>
+                <li><a href="contact.html">Contact/Registration</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <h2 class="h2">Register Yourself</h2>
+        <p class="p1">To register yourself for the event visit, <a href="https://www.seeu.edu.mk/">here</a>.</p>
+        <h2 class="h2">Contact Form</h2>
+    
+        <div class="form">
+            
+            <form action="#" method="POST">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+        
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+        
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+        
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        
+    
+    
+        <h2 class="h2">Contact Information</h2>
+        
+        </main>
+        <footer>
+            <ul class="contact">
+                <li class="last">Event organizers.</li>
+                <li class="last">Email: <a href="mailto:info@seeufoodfestival.com">info@seeufoodfestival.com</a></li>
+                <li class="last">Phone: +123-456-7890</li>
+            </ul>
+        </footer>
+</body>
+</html>
